@@ -7,7 +7,6 @@ public class problem_1_2 {
     public static void main(String[] args) {
         char[] c = {'a', 'b', 'c', 'd', '\0'};
         System.out.print(reverseCString(c));
-
     }
 
     public static char[] reverseCString(char[] c) {
