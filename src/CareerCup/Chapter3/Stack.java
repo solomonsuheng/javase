@@ -13,7 +13,9 @@ public class Stack {
 
     public Node pop() {
         if (top != null) {
-            return top;
+            Node tempPointToTop = top;
+            top = top.next;
+            return tempPointToTop;
         } else {
             return null;
         }
@@ -29,4 +31,15 @@ public class Stack {
         top = tempNode;
     }
 
+
+    public static void main(String[] args) {
+        Node top = new Node(Integer.MAX_VALUE);
+        Stack s = new Stack(top);
+        for (int i = 0; i < 10; i++) {
+            s.push(i);
+        }
+        for (int i = 0; i < 10; i++) {
+            System.out.print(s.pop().data + " ");
+        }
+    }
 }
