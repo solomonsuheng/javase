@@ -17,7 +17,7 @@ public class Stack<E> {
     }
 
     public Stack() {
-
+        int a = 10;
     }
 
 
