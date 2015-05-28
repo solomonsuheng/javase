@@ -14,7 +14,7 @@ import java.io.IOException;
 public class ListLink {
     public static void main(String[] args) throws IOException {
         Validate.isTrue(args.length == 1, "Usage: supply url to fetch");
-        String url = args[0];//get the url from the args[0]
+        String url = args[0];//get the url from the args[`]
         print("Fetching %s...", url);
 
         //Connecting to the url
