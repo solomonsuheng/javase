@@ -1,4 +1,4 @@
-package IntroducitonToJavaProgramming.Chapter_24;
+package IntroductionToJavaProgramming.Chapter_24;
 
 import java.util.concurrent.ExecutorService;
 import java.util.concurrent.Executors;

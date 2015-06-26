@@ -6,8 +6,10 @@ import org.junit.Test;
  * Created by Suheng on 6/13/15.
  */
 public class TestDemo {
+
     static char[][] matrix = {{'*', '.'}, {'*', '.'}};
     static char[][] matrixError = {{'*'}, {'*', '.'}};
+
 
     //测试是否是雷
     @Test

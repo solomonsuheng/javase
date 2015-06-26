@@ -1,4 +1,4 @@
-package IntroducitonToJavaProgramming.Chapter_24;
+package IntroductionToJavaProgramming.Chapter_24;
 
 /**
  * Created by Suheng on 6/7/15.
