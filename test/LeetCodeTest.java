@@ -1,7 +1,4 @@
-import LeetCode.ContainsDuplicate;
-import LeetCode.CountPrimes;
-import LeetCode.IsomorphicStrings;
-import LeetCode.SingleNumber;
+import LeetCode.*;
 import org.junit.Test;
 import org.testng.Assert;
 
@@ -31,7 +28,7 @@ public class LeetCodeTest {
 
     @Test
     public void testSingleNumber() throws Exception {
-        Assert.assertEquals(1, SingleNumber.singleNumber(1, 2, 2, 3, 3, 4, 4, 5,5));
+        Assert.assertEquals(1, SingleNumber.singleNumber(1, 2, 2, 3, 3, 4, 4, 5, 5));
 
     }
 }
