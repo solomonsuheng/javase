@@ -71,11 +71,5 @@ public class TestDemo {
 
     }
 
-    @Test
-    public void testIf() throws Exception {
-        Fileds f = new Fileds();
-
-        Assert.assertEquals(true,f.checkIf("h"));
-    }
 
 }
