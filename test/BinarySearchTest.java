@@ -11,6 +11,7 @@ public class BinarySearchTest {
         Assert.assertEquals(1, BinarySearch.binarySearch(2, 1, 2, 3, 4));
         Assert.assertEquals(3, BinarySearch.binarySearch(4, 1, 2, 3, 4));
         Assert.assertEquals(0, BinarySearch.binarySearch(1, 1, 2, 3, 4));
+        Assert.assertEquals(8, BinarySearch.binarySearch(9, 1, 2, 3, 4, 5, 6, 7, 8, 9));
 
     }
 }
